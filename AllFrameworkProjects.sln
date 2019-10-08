@@ -37,7 +37,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SKUGenerator", "..\SkuGener
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SubSupervisorScreen", "..\SubSupervisor\SubSupervisorScreen\SubSupervisorScreen.vbproj", "{350EF507-F6BD-4036-96FE-059230406C04}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SurfaceShell", "..\Surface Custom Shell\SurfaceShell\SurfaceShell.vbproj", "{0FC1F097-7C0D-4368-A413-0359F799CCF4}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SurfaceShell", "..\Surface-Shell\SurfaceShell\SurfaceShell.vbproj", "{0FC1F097-7C0D-4368-A413-0359F799CCF4}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SurfacePicker", "..\SurfacePicker\SurfacePicker\SurfacePicker.vbproj", "{E03554B6-148F-4AE2-BACE-F5D246BBDF2E}"
 EndProject
@@ -45,9 +45,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System2Desktop", "..\System
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System2Interaction", "..\System2Interaction\System2Interaction\System2Interaction.csproj", "{A18CEC95-5B5E-4D7A-86B4-4252612661AE}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MultiVNCViewer", "..\VNC Viewer\MultiVNCViewer\MultiVNCViewer.vbproj", "{1E2CA4D0-1EE9-479F-9F87-E11331618932}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MultiVNCViewer", "..\VNC-Viewer\MultiVNCViewer\MultiVNCViewer.vbproj", "{1E2CA4D0-1EE9-479F-9F87-E11331618932}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Warehouse Manager", "..\Warehouse Manager\Warehouse Manager\Warehouse Manager.vbproj", "{A6873B91-767F-4761-A212-561B17682452}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Warehouse Manager", "..\Warehouse-Manager\Warehouse Manager\Warehouse Manager.vbproj", "{A6873B91-767F-4761-A212-561B17682452}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "..\AndroidWarehouseJson\WebApi\WebApi.csproj", "{D3D5F294-2659-4DA7-AD8C-845B62D8DE5A}"
 EndProject
