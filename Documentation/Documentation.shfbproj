@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!-- The configuration and platform will be used to determine which assemblies to include from solution and
+				 project documentation sources -->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>109a0748-7b13-45af-8685-0e6e59bb6302</ProjectGuid>
+    <SHFBSchemaVersion>2017.9.26.0</SHFBSchemaVersion>
+    <!-- AssemblyName, Name, and RootNamespace are not used by SHFB but Visual Studio adds them anyway -->
+    <AssemblyName>Documentation</AssemblyName>
+    <RootNamespace>Documentation</RootNamespace>
+    <Name>Documentation</Name>
+    <!-- SHFB properties -->
+    <FrameworkVersion>.NET Framework 4.7.2</FrameworkVersion>
+    <OutputPath>.\Help\</OutputPath>
+    <HtmlHelpName>Documentation</HtmlHelpName>
+    <Language>en-US</Language>
+    <TransformComponentArguments>
+      <Argument Key="logoFile" Value="Help.png" xmlns="" />
+      <Argument Key="logoHeight" Value="" xmlns="" />
+      <Argument Key="logoWidth" Value="" xmlns="" />
+      <Argument Key="logoAltText" Value="" xmlns="" />
+      <Argument Key="logoPlacement" Value="left" xmlns="" />
+      <Argument Key="logoAlignment" Value="left" xmlns="" />
+      <Argument Key="maxVersionParts" Value="" xmlns="" />
+    </TransformComponentArguments>
+    <HelpFileFormat>Website</HelpFileFormat>
+    <SyntaxFilters>C#, Visual Basic, F#, ASP.NET</SyntaxFilters>
+    <PresentationStyle>VS2013</PresentationStyle>
+    <CleanIntermediates>True</CleanIntermediates>
+    <KeepLogFile>True</KeepLogFile>
+    <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
+    <IndentHtml>False</IndentHtml>
+    <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
+    <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
+    <HelpTitle>White Hinge Documentation</HelpTitle>
+    <HelpFileVersion>1.0.0.0</HelpFileVersion>
+    <NamingMethod>MemberName</NamingMethod>
+    <ContentPlacement>BelowNamespaces</ContentPlacement>
+    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <NamespaceGrouping>False</NamespaceGrouping>
+    <MaximumGroupParts>2</MaximumGroupParts>
+    <Preliminary>False</Preliminary>
+    <SdkLinkTarget>Blank</SdkLinkTarget>
+    <HtmlSdkLinkType>None</HtmlSdkLinkType>
+    <BinaryTOC>False</BinaryTOC>
+    <IncludeFavorites>False</IncludeFavorites>
+    <WebsiteSdkLinkType>Msdn</WebsiteSdkLinkType>
+    <AppendMarkdownFileExtensionsToUrls>False</AppendMarkdownFileExtensionsToUrls>
+    <MissingTags>Summary, Parameter, Returns, AutoDocumentCtors, Namespace, TypeParameter, AutoDocumentDispose</MissingTags>
+    <PlugInConfigurations>
+      <PlugInConfig id="Output Deployment" enabled="True" xmlns="">
+        <configuration deleteAfterDeploy="false" verboseLogging="false">
+          <deploymentLocation id="help1x" location="">
+            <userCredentials useDefault="true" userName="" password="" />
+            <proxyCredentials useProxy="false" proxyServer="">
+              <userCredentials useDefault="true" userName="" password="" />
+            </proxyCredentials>
+          </deploymentLocation>
+          <deploymentLocation id="helpViewer" location="" renameMSHA="false">
+            <userCredentials useDefault="true" userName="" password="" />
+            <proxyCredentials useProxy="false" proxyServer="">
+              <userCredentials useDefault="true" userName="" password="" />
+            </proxyCredentials>
+          </deploymentLocation>
+          <deploymentLocation id="website" location="Y:\Intra\docs">
+            <userCredentials useDefault="true" userName="" password="" />
+            <proxyCredentials useProxy="false" proxyServer="">
+              <userCredentials useDefault="true" userName="" password="" />
+            </proxyCredentials>
+          </deploymentLocation>
+          <deploymentLocation id="openXml" location="">
+            <userCredentials useDefault="true" userName="" password="" />
+            <proxyCredentials useProxy="false" proxyServer="">
+              <userCredentials useDefault="true" userName="" password="" />
+            </proxyCredentials>
+          </deploymentLocation>
+          <deploymentLocation id="markdown" location="">
+            <userCredentials useDefault="true" userName="" password="" />
+            <proxyCredentials useProxy="false" proxyServer="">
+              <userCredentials useDefault="true" userName="" password="" />
+            </proxyCredentials>
+          </deploymentLocation>
+        </configuration>
+      </PlugInConfig>
+    </PlugInConfigurations>
+    <VisibleItems>ExplicitInterfaceImplementations, InheritedMembers, InheritedFrameworkMembers, Internals, Protected, ProtectedInternalAsProtected, NonBrowsable</VisibleItems>
+    <DocumentationSources>
+      <DocumentationSource sourceFile="..\AllFrameworkProjects.sln" xmlns="" />
+    </DocumentationSources>
+  </PropertyGroup>
+  <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
+			 the build.  The others are optional common platform types that may appear. -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Win32' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Win32' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Content" />
+    <Folder Include="Content\VersionHistory" />
+    <Folder Include="icons" />
+    <Folder Include="media" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\VersionHistory\v1.0.0.0.aml" />
+    <None Include="Content\VersionHistory\VersionHistory.aml" />
+    <None Include="Content\Welcome.aml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ContentLayout Include="ContentLayout.content" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AndroidWarehouseJson\WebApi\WebApi.csproj">
+      <Name>WebApi</Name>
+      <Project>{d3d5f294-2659-4da7-ad8c-845b62d8de5a}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\Framework\Framework.vbproj">
+      <Name>Framework</Name>
+      <Project>{8a2b93b9-4651-40f3-bbf9-d8fd0474a719}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\InventoryControl\Inventory Control\Inventory Control.vbproj">
+      <Name>Inventory Control</Name>
+      <Project>{e1e79f79-1808-42a7-979e-e5da3e85a4d2}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ListingToolkit\ListingToolkit\ListingToolkit.csproj">
+      <Name>ListingToolkit</Name>
+      <Project>{dcd1b0b8-e50f-49f4-9f29-64e1137e5111}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LocationPrinter\LocationPrinter\LocationPrinter.vbproj">
+      <Name>LocationPrinter</Name>
+      <Project>{bd1fca3f-6663-40b5-b8de-faf84b4f4c1c}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\LogonAUPCheck\LogonAUPCheck\LogonAUPCheck.vbproj">
+      <Name>LogonAUPCheck</Name>
+      <Project>{2c69bbed-54c6-49e7-8ce4-85d82512a578}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OrderDownloader\OrderDownloader\OrderDownloader.vbproj">
+      <Name>OrderDownloader</Name>
+      <Project>{81baa3ca-17e9-4ce9-aacb-ca414abcd7cb}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OrderManager\OrderManager\OrderManager.csproj">
+      <Name>OrderManager</Name>
+      <Project>{a9cb3bd4-7fd1-4f51-9414-1334e1d871d3}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OrderServer\Order Server\Order Server.vbproj">
+      <Name>Order Server</Name>
+      <Project>{4d0baed6-8619-471c-a9eb-20e1356db2e7}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OrderStateEditor\OrderStateEditor\OrderStateEditor.vbproj">
+      <Name>OrderStateEditor</Name>
+      <Project>{e3bf0cf0-2d65-475f-ae5b-ff73e2839654}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PrepackSupervisor\PrePackSupervisor\PrePackSupervisor.vbproj">
+      <Name>PrePackSupervisor</Name>
+      <Project>{6e496ebe-6196-4e85-a5d8-1f2f48e2e5fa}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Prepack\Prepack\PrePack.vbproj">
+      <Name>PrePack</Name>
+      <Project>{709d7236-4a58-4c5c-995f-d08284f55337}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ProcessedViewer\ProcessedViewer\ProcessedViewer.vbproj">
+      <Name>ProcessedViewer</Name>
+      <Project>{4a7b4a37-ce35-4fe9-bb69-0b97cf766b74}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RelistGenerator\RelistGenerator\RelistGenerator.vbproj">
+      <Name>RelistGenerator</Name>
+      <Project>{eed8d424-28ce-420b-836d-16ab36f1ad88}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Reorder\Reorder\Reorder.vbproj">
+      <Name>Reorder</Name>
+      <Project>{f7a7c5ff-8109-49c8-b4c5-cbab1d89ffc1}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Sales Data Compiler\Sales Data Compiler\SalesDataCompiler.vbproj">
+      <Name>SalesDataCompiler</Name>
+      <Project>{1a2e84b6-21aa-484b-b752-06c0b6313135}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkuGenerator\SKU Generator\SKUGenerator.vbproj">
+      <Name>SKUGenerator</Name>
+      <Project>{bc03f305-46dd-4d38-80de-944a75d9737a}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SubSupervisor\SubSupervisorScreen\SubSupervisorScreen.vbproj">
+      <Name>SubSupervisorScreen</Name>
+      <Project>{350ef507-f6bd-4036-96fe-059230406c04}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Surface-Shell\SurfaceShell\SurfaceShell.vbproj">
+      <Name>SurfaceShell</Name>
+      <Project>{0fc1f097-7c0d-4368-a413-0359f799ccf4}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SurfacePicker\SurfacePicker\SurfacePicker.vbproj">
+      <Name>SurfacePicker</Name>
+      <Project>{e03554b6-148f-4ae2-bace-f5d246bbdf2e}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\System2Desktop\System2Desktop\System2Desktop.csproj">
+      <Name>System2Desktop</Name>
+      <Project>{8d179966-a47e-43c3-8b96-04e4dc3f199c}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\System2Interaction\System2Interaction\System2Interaction.csproj">
+      <Name>System2Interaction</Name>
+      <Project>{a18cec95-5b5e-4d7a-86b4-4252612661ae}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\VNC-Viewer\MultiVNCViewer\MultiVNCViewer.vbproj">
+      <Name>MultiVNCViewer</Name>
+      <Project>{1e2ca4d0-1ee9-479f-9f87-e11331618932}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Warehouse-Manager\Warehouse Manager\Warehouse Manager.vbproj">
+      <Name>Warehouse Manager</Name>
+      <Project>{a6873b91-767f-4761-a212-561b17682452}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WhiteHingeFrameworkExt\WhiteHingeFrameworkExt\WhiteHingeFrameworkExt.csproj">
+      <Name>WhiteHingeFrameworkExt</Name>
+      <Project>{88e06104-a927-4fc3-bbd7-f54e24da0d63}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <!-- Import the SHFB build targets -->
+  <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" />
+  <!-- The pre-build and post-build event properties must appear *after* the targets file import in order to be
+			 evaluated correctly. -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+</Project>
